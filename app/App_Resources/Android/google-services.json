@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "86836305742",
+    "firebase_url": "https://izwly-c6b98.firebaseio.com",
+    "project_id": "izwly-c6b98",
+    "storage_bucket": "izwly-c6b98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86836305742:android:8f2d10ffab2a51d6",
+        "android_client_info": {
+          "package_name": "org.luigirussotest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86836305742-tr7goer70hbhdhcisvq83g4eis201c08.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.luigirussotest",
+            "certificate_hash": "095a3fc4b80dc9f1800792663df1d586f62d90b4"
+          }
+        },
+        {
+          "client_id": "86836305742-v42fph3tktm9r8t9ss5hrrt3car0am2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBivx5DRUtVgf1w7m3OJVQfgn7WKj3W9ho"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86836305742-iq607333bd74ba7clpfkrbv286gn67kt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.luigirussotest"
+              }
+            },
+            {
+              "client_id": "86836305742-v42fph3tktm9r8t9ss5hrrt3car0am2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

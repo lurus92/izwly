@@ -1,0 +1,118 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-ssi-imagepicker",
+        "scope": null,
+        "escapedName": "nativescript-ssi-imagepicker",
+        "name": "nativescript-ssi-imagepicker",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/lrusso/Dropbox/Sviluppo/izwly"
+    ]
+  ],
+  "_from": "nativescript-ssi-imagepicker@latest",
+  "_id": "nativescript-ssi-imagepicker@3.0.13",
+  "_inCache": true,
+  "_location": "/nativescript-ssi-imagepicker",
+  "_nodeVersion": "6.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/nativescript-ssi-imagepicker-3.0.13.tgz_1507932802757_0.739139397861436"
+  },
+  "_npmUser": {
+    "name": "dnelson-simplec",
+    "email": "dnelson@simplec.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-ssi-imagepicker",
+    "scope": null,
+    "escapedName": "nativescript-ssi-imagepicker",
+    "name": "nativescript-ssi-imagepicker",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-ssi-imagepicker/-/nativescript-ssi-imagepicker-3.0.13.tgz",
+  "_shasum": "8bf88a4d6014f27a685f73cc020d7bf74c816d8b",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-ssi-imagepicker",
+  "_where": "/Users/lrusso/Dropbox/Sviluppo/izwly",
+  "author": {
+    "name": "NativeScript Team"
+  },
+  "bootstrapper": "nativescript-plugin-seed",
+  "bugs": {
+    "url": "https://github.com/simplec-dev/nativescript-imagepicker/issues"
+  },
+  "dependencies": {
+    "nativescript-permissions": "~1.2.3",
+    "nativescript-pro-ui": "^3.1.2"
+  },
+  "description": "A plugin for the NativeScript framework implementing multiple image picker",
+  "devDependencies": {
+    "tns-core-modules": "^3.1.0",
+    "tns-platform-declarations": "^3.0.0",
+    "tslint": "~5.4.3",
+    "typescript": "~2.3.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "8bf88a4d6014f27a685f73cc020d7bf74c816d8b",
+    "tarball": "https://registry.npmjs.org/nativescript-ssi-imagepicker/-/nativescript-ssi-imagepicker-3.0.13.tgz"
+  },
+  "homepage": "https://github.com/simplec-dev/nativescript-imagepicker",
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "Android",
+    "iOS"
+  ],
+  "license": "Apache-2.0",
+  "main": "imagepicker",
+  "maintainers": [
+    {
+      "name": "dnelson-simplec",
+      "email": "dnelson@simplec.com"
+    }
+  ],
+  "name": "nativescript-ssi-imagepicker",
+  "nativescript": {
+    "platforms": {
+      "android": "3.0.0",
+      "ios": "3.0.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplec-dev/nativescript-imagepicker.git"
+  },
+  "scripts": {
+    "build": "npm i && tsc",
+    "ci.tslint": "npm i && tslint '**/*.ts' --config '../tslint.json' --exclude '**/node_modules/**'",
+    "clean": "rm -rf node_modules && cd ../demo && rm -rf hooks node_modules platforms && cd ../src && npm run plugin.link",
+    "demo.android": "npm i && npm run tsc && cd ../demo && tns run android --syncAllFiles",
+    "demo.ios": "npm i && npm run tsc && cd ../demo && tns run ios --syncAllFiles",
+    "ngc": "node --max-old-space-size=8192 ./node_modules/.bin/ngc",
+    "plugin.link": "npm link && cd ../demo && npm link nativescript-ssi-imagepicker && cd ../demo-angular && npm link nativescript-ssi-imagepicker",
+    "plugin.tscwatch": "npm run tsc -- -w",
+    "postclone": "npm i && node scripts/postclone.js && cd ../demo && npm i && cd ../src && npm run plugin.link",
+    "prepublishOnly": "npm run build",
+    "test.android": "npm i && npm run tsc && npm run tslint && cd ../demo && tns build android && tns test android --justlaunch && cd ../demo-angular && tns build android && tns test android --justlaunch",
+    "test.ios": "npm i && npm run tsc && npm run tslint && cd ../demo && tns build ios && tns test ios --justlaunch",
+    "tsc": "tsc -skipLibCheck",
+    "tslint": "cd .. && tslint \"**/*.ts\" --config tslint.json --exclude \"**/node_modules/**\""
+  },
+  "typings": "index.d.ts",
+  "version": "3.0.13"
+}

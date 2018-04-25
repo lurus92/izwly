@@ -1,0 +1,11 @@
+
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page" actionBarHidden="true"> 
+
+    <StackLayout class="">
+        <Label text="izwly" class="h1 text-center" id="title"/>
+        <!--GridLayout class="animationContainer"-->
+        <Image src="~/img/big-logo.png" class="animationContainer"/>
+        <!--/GridLayout-->
+        <Label text="Voice out" class="h2" id="subtitle"/>
+    </StackLayout>
+</Page>

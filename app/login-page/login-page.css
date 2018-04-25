@@ -1,0 +1,99 @@
+.page {
+    background-color: #A40000;
+    color: white;
+    height: 2000;
+}
+
+#title{
+    font-family: 'SignPainter','SignPainter-HouseScript';
+    font-size: 65;
+    height: 20%;
+    width: 100%;
+    /*margin: 3%;*/
+    top: 0;
+    left: 0;
+    /*background-color: green;*/
+  
+}
+
+#long-text{
+    margin-top: 5%; 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#small-text{
+    font-size: 10;
+
+}
+
+#photo-button{
+    width: 124;
+    height: 124;
+    background-color: #770000;
+    border-radius: 100;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: "img/camera.png";
+}
+
+#top-container {
+    background-color: red;
+    height: 60%;
+    width: 100%;
+}
+
+#padding-space{
+    height: 30%;
+}
+
+#bottom-container{
+    padding-top: 0%;
+    /*background-color: green;*/
+    height: 100%;
+    width: 100%;
+    top: 400;
+}
+
+TextField{
+    margin: 15;
+    border-radius: 10;
+    font-size: 30;
+    text-align: center;
+}
+
+#number-textfield{
+    background-color: #A40000;
+}
+
+#code-textfield, #name-textfield{
+    background-color: red;
+}
+
+#sms-button{
+    /*margin-top: -18;*/
+}
+
+Button{
+    background-color: white;
+    color: red;
+    width: 100;
+    border-radius: 5;
+    height: 36;
+}
+
+
+.h1{
+    color: white;
+}
+
+.h2{
+    text-align: center;
+}
+
+#signup-button{
+    margin-top: 10%;
+}

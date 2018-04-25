@@ -1,0 +1,25 @@
+
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page" loaded="buildDynamicUI" actionBarHidden="true"> 
+
+    <StackLayout class="">
+            <StackLayout id="top-container">
+
+                <Label text="izwly" class="h1 text-center" id="title"/>
+                <Label text="We will send you an SMS in order to confirm your mobile phone" class="text-center" id="long-text"/>
+                <Label text="Write below your phone number" class="text-center" id="long-text"/>
+
+                <TextField text="" id="number-textfield" hint="+00 000 0000000"/>
+                <Label text="Standard SMS rates will apply" id="small-text" class="text-center"/>
+
+            </StackLayout>
+            <Button text="SEND SMS" id="sms-button"/>
+            <Button text="logout" id="logout-button"/>
+            
+            <StackLayout id="bottom-container">
+                <Label text="Write below the code you received" class="text-center"/>
+                <TextField text="" id="code-textfield"/>
+                <Button text="SIGN UP" id="signup-button"/>
+            </StackLayout>
+
+    </StackLayout>
+</Page>
